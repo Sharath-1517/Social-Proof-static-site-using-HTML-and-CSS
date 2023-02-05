@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-top {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 850px;
+}
+
+.bg-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1360px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "League Spartan", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 200px;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ten-thousand {
+  font-size: 5rem;
+  font-weight: 700;
+  color: hsl(300deg, 43%, 22%);
+}
+
+.product-love {
+  width: 541px;
+  color: hsl(300deg, 43%, 22%);
+}
+
+.assurance {
+  font-weight: 400;
+  font-size: 1.49rem;
+  margin-top: 30px;
+}
+
+.stars img {
+  width: 25px;
+}
+
+.review-text {
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+}
+
+.rating-container-1 {
+  display: flex;
+  align-self: flex-start;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding: 25px 95px 25px 30px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: hsl(300deg, 24%, 96%);
+}
+
+.rating-container-2 {
+  display: flex;
+  align-self: center;
+  border-radius: 10px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding: 25px 95px 25px 30px;
+  align-items: center;
+  background-color: hsl(300deg, 24%, 96%);
+}
+
+.rating-container-3 {
+  display: flex;
+  text-align: center;
+  align-self: flex-end;
+  border-radius: 10px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding: 25px 95px 25px 30px;
+  align-items: center;
+  background-color: hsl(300deg, 24%, 96%);
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  width: 45%;
+}
+.ratings p {
+  font-size: 1.4rem;
+}
+
+.buyers-comments {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.buyer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  row-gap: 30px;
+  padding: 30px;
+  font-weight: 500;
+  background-color: hsl(300deg, 43%, 22%);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.buyer-info {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  font-size: 1.4rem;
+}
+.buyer-image {
+  width: 100px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+.buyer-comment {
+  color: white;
+  line-height: 30px;
+  font-size: 1.7rem;
+}
+
+.name {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.verification {
+  color: hsl(333deg, 80%, 67%);
+}
+
+#buyer2 {
+  margin-top: 50px;
+}
+
+#buyer3 {
+  margin-top: 100px;
+}/*# sourceMappingURL=index.css.map */

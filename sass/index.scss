@@ -1,0 +1,154 @@
+@import 'config';
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: $font;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: space-evenly;
+    margin: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+// TOP SECTION
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ten-thousand {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $dark-magenta;
+}
+
+.product-love {
+    width: 541px;
+    color: $dark-magenta;
+}
+
+.assurance {
+    font-weight: 400;
+    font-size: 1.49rem;
+    margin-top: 30px;
+}
+
+.stars {
+    img {
+        width: 25px;
+    }
+}
+
+.review-text {
+    color: $dark-magenta;
+    font-weight: 700;
+}
+
+.rating-container-1 {
+    display: flex;
+    align-self: flex-start;
+    column-gap: 20px;
+    padding: 25px 95px 25px 30px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: $light-grey-magenta;
+}
+.rating-container-2 {
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    column-gap: 20px;
+    padding: 25px 95px 25px 30px;
+    align-items: center;
+    background-color: $light-grey-magenta;
+}
+.rating-container-3 {
+    display: flex;
+    text-align: center;
+    align-self: flex-end;
+    border-radius: 10px;
+    column-gap: 20px;
+    padding: 25px 95px 25px 30px;
+    align-items: center;
+    background-color: $light-grey-magenta;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    width: 45%;
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+// BOTTOM SECTION
+
+
+.buyers-comments {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+
+
+.buyer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    row-gap: 30px;
+    padding: 30px;
+    font-weight: 500;
+    background-color: $dark-magenta;
+    height: fit-content;
+
+
+    &-info {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        font-size: 1.4rem;
+    }
+
+    &-image {
+        width: 100px;
+        border-radius: 100%;
+        margin-right: 5px;
+    }
+
+    &-comment {
+        color: white;
+        line-height: 30px;
+        font-size: 1.7rem;
+    }
+}
+
+.name {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.verification {
+    color: $soft-pink;
+}
+#buyer2 {
+    margin-top: 50px;
+}
+#buyer3 {
+    margin-top: 100px;
+}
+

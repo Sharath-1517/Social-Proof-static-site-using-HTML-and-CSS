@@ -1,0 +1,37 @@
+// DEFAULT VIEWS
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-top {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 850px;
+}
+
+.bg-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1360px;
+}
+
+// VIEWS
+
+$desktop-view : 1440px;
+$mobile-view : 375px;
+
+// COLOURS
+
+$dark-magenta : hsl(300, 43%, 22%);
+$soft-pink : hsl(333, 80%, 67%);
+
+$dark-grey-magenta : hsl(303, 10%, 53%);
+$light-grey-magenta : hsl(300, 24%, 96%);
+
+// FONTS
+
+$font : 'League Spartan', sans-serif;
